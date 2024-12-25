@@ -4,6 +4,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 
+# Настройка логгера для отслеживания хода работы агента
 
 class JSONFormatter(logging.Formatter):
     def format(self, record):

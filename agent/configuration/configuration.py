@@ -3,6 +3,7 @@ from pathlib import Path
 from pydantic import Field
 from pydantic_settings import SettingsConfigDict, BaseSettings
 
+# Настройка конфигурации из файла .env и валидация имен переменных окружения
 class Config(BaseSettings):
     gigachat_credentials: str = Field(validation_alias="GIGACHAT_CREDENTIALS")
     gigachat_scope: str = Field(validation_alias="GIGACHAT_SCOPE")
