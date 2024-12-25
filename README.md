@@ -23,10 +23,10 @@ streamlit run main.py
 6. Откройте в браузере http://localhost:8501/
 
 ## Архитектура агента
-![alt text] (images/architecture.png)
+![alt text](images/architecture.png)
 
 ## Пример работы
-![alt text] (images/example.png)
+![alt text](images/example.png)
 
 ## Метрики
 Для проведения оценки качества агента был сформирован тестовый датасет в test.jsonl
